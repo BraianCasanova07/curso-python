@@ -11,7 +11,11 @@ print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separada
 
 ### Completa aquí
 
-print("--------------")
+nombre = 'Braian'
+ciudad = 'Buenos Aires'
+
+print(nombre)
+print(ciudad)
 
 print("\nEjercicio 2: Muestra los tipos de datos de las siguientes variables:")
 print("Usa el comando 'type()' para determinar el tipo de datos de cada variable.")
@@ -23,7 +27,12 @@ e = None
 
 ### Completa aquí
 
-print("--------------")
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
 
 print("\nEjercicio 3: Casting de tipos")
 print("Convierte la cadena \"12345\" a un entero y luego a un float.")
@@ -31,7 +40,20 @@ print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
 ### Completa aquí
 
-print("--------------")
+numeros = "12345"
+numeros = int(numeros)
+
+print(numeros)
+
+numeros = float(numeros)
+
+print(numeros)
+
+otro_numero = 3.99
+otro_numero = float(otro_numero)
+
+print(int(otro_numero))
+
 
 print("\nEjercicio 4: Variables")
 print("Crea variables para tu nombre, edad y altura.")
@@ -41,10 +63,18 @@ print("Usa f-strings para imprimir una presentación.")
 
 ### Completa aquí
 
-print("--------------")
+nombre = 'Braian'
+edad = 22
+altura = 193.5
+
+print(f'Hola! Me llamo {nombre} y tengo {edad} años, mido {altura} cm ')
 
 print("\nEjercicio 5: Números")
 print("1. Crea una variable con el número PI (sin asignar una variable)")
 print("2. Redondea el número con round()")
 print("3. Haz la división entera entre el número que te salió y el número 2")
 print("4. El resultado debería ser 1")
+
+print("valor de pi aprox: ", 3.1416)
+print("valor redondeado de pi: ", round(3.1416))
+print("valor divido del redondeo de pi: ", int(round(3.1416) / 2))
